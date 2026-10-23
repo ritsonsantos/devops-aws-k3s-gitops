@@ -4,14 +4,7 @@ resource "aws_security_group" "k3s_nodes" {
   description = "Acesso restrito aos nos K3s"
   vpc_id      = aws_vpc.main.id
 
-  # Permite comunicacao entre recursos deste Security Group
-  ingress {
-    description = "Comunicacao interna dos nos"
-    from_port   = 0
-    to_port     = 0
-    protocol    = "-1"
-    self        = true
-  }
+
 
   # Saida para atualizacoes e downloads
   egress {

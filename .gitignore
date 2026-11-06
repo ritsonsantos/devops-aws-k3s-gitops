@@ -27,3 +27,4 @@ tfplan
 artifacts/k3s
 artifacts/install.sh
 artifacts/k3s-airgap-images-amd64.tar.zst
+nginx-manifests.tar.gz

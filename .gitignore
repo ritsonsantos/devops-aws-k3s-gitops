@@ -18,3 +18,12 @@ crash.*.log
 # OS
 .DS_Store
 Thumbs.db
+
+# Terraform plan
+*.tfplan
+tfplan
+
+# K3s artifacts (stored in S3, not Git)
+artifacts/k3s
+artifacts/install.sh
+artifacts/k3s-airgap-images-amd64.tar.zst

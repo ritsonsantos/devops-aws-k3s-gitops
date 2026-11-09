@@ -27,4 +27,4 @@ jobs:
           sudo install kubeconform /usr/local/bin/kubeconform
 
       - name: Validar arquivos YAML
-        run: kubeconform -strict -summary -recursive kubernetes/
+        run: kubeconform -strict -summary kubernetes/

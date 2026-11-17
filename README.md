@@ -199,6 +199,10 @@ Durante o desenvolvimento foram trabalhados conceitos de:
 - Segurança e princípio do menor privilégio.
 - Troubleshooting de infraestrutura e aplicações.
 
+## Arquitetura visual
+
+![Arquitetura DevOps AWS K3s](docs/architecture.png)
+
 ## Autor
 
 **GitHub:** [ritsonsantos](https://github.com/ritsonsantos)
@@ -208,3 +212,7 @@ Durante o desenvolvimento foram trabalhados conceitos de:
 ---
 
 Projeto desenvolvido para fins de estudo e portfólio profissional na área de DevOps e Cloud Computing.
+
+## Arquitetura visual
+
+![Arquitetura DevOps AWS K3s](docs/architecture.png)

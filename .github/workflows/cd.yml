@@ -40,7 +40,7 @@ jobs:
 
       - name: Enviar manifestos para S3
         env:
-          S3_BUCKET: ritson-devops-k3s-artifacts-eb863a5dbfc69544a9cbefb71
+          S3_BUCKET: ritson-devops-k3s-artifacts-eb863a5dbfc69544a9cbefb71b
         run: |
           tar -czf nginx-manifests.tar.gz -C kubernetes/apps/nginx .
           S3_KEY="deployments/nginx/${GITHUB_SHA}.tar.gz"
@@ -52,7 +52,7 @@ jobs:
 
       - name: Aplicar manifestos via SSM
         env:
-          S3_BUCKET: ritson-devops-k3s-artifacts-eb863a5dbfc69544a9cbefb71
+          S3_BUCKET: ritson-devops-k3s-artifacts-eb863a5dbfc69544a9cbefb71b
           INSTANCE_ID: i-017dc461291af32e7
         run: |
           jq -n \
